@@ -42,7 +42,7 @@ Logger logger=Logger.getLogger("TeamsController");
 	@RequestMapping("/delete.do")
 	
 	public String delete(String teamName,HttpServletRequest req) {
-	//	logger.info("inside delete");
+	logger.info("inside delete");
 		
 		//String msg=iplservice.ValidateAndDelete(teamName);
 		String msg=iplservice.ValidateAndDelete(teamName);
